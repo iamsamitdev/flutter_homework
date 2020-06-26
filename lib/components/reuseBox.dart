@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_homework/utils/constants.dart';
 
 class ReuseBox extends StatefulWidget {
 
@@ -28,8 +29,8 @@ class _ReuseBoxState extends State<ReuseBox> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(widget.icon, size: 50.0, color: Colors.white,),
-                  SizedBox(height: 10.0,),
-                  Text(widget.txtMenu, style: TextStyle(fontSize: 24.0, color: Colors.white),)
+                  SizedBox(height: sizeboxHeight,),
+                  Text(widget.txtMenu, style: kmenuTextStyle)
                 ],
               ),
             ),
